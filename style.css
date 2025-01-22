@@ -1,0 +1,89 @@
+*{
+    
+    font-family:century ;
+
+}
+body{
+    height: 750px;
+    width: 1350;
+}
+header{
+    min-height: 750px;
+    width: 1440px;
+} 
+ul{
+    float: right;
+    list-style-type:none;
+    margin-top: 20px;
+    min-height: 400px;
+    margin-left: 75px;
+    font-size:20px;
+
+} 
+ul li{
+    display: inline-block;
+}
+ul li a{
+    text-decoration: none;
+    color:rgb(26, 62, 15)
+    (176, 101, 246);
+    padding:10px 35px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+    border-radius: 30px;
+    background-color:rgb(26, 62, 15);
+    color: rgb(235, 221, 205);
+}
+.active a{
+    text-decoration: underline;
+    background-color:rgb(26, 62, 15);
+    color: rgb(235, 221, 205);
+
+}
+ul li a:hover{
+    color: white;
+    text-decoration: underline;
+}
+.main{
+    margin: auto;
+    background-color:rgb(245, 232, 218);
+    height: 70px;
+    width: 1450px;
+
+}
+.logo img{
+    margin-right:10px;
+    height:50px;
+    width: 50px;
+    margin-top: 10px;
+    float:left;
+    border-radius: 50px;
+}
+.w{
+    float:left;
+    margin-left:10px;
+    color: rgb(26, 62, 15);
+    margin-top: 15px;
+    font-size: 30px;
+    
+}
+
+.w1{
+    
+    color:rgb(26, 62, 15);
+    font-size: 60px;
+    position: absolute;
+    top: 20%;
+    left: 25%;
+    transform: translate(-50%,-50%);
+}
+.w1:hover{
+    color: beige;
+}
+footer div{
+    height: 750px;
+    width: 1490px;
+    background-color:rgb(26, 62, 15);
+    border: 4px solid beige;
+    margin: 0;
+}

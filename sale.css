@@ -1,0 +1,184 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'poppins',sans-serif;
+}
+.contact{
+    position: relative;
+    min-height: 100vh;
+    padding: 50px 100px;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+    color: black;
+
+}
+.contact .content{
+    max-width: 800px;
+    text-align: center;
+
+}
+.contact .content h2{
+    font-size: 36px;
+    font-weight: 700;
+    color: black;
+    display: flex;
+}
+.container{
+    width: 100%;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    margin-top: 30px;
+}
+.container .contactinfo{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.container .contactinfo .box{
+    position: relative;
+    padding: 20px 0;
+    display: flex;
+
+}
+.container .contactinfo .box .icon{
+    min-width:60px;
+    height: 60px;
+    background-color:rgb(156, 205, 124);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    font-size: 22px;
+}
+.container .contactinfo .box .text{
+    display: flex;
+    margin-left: 20px;
+    font-size: 16px;
+    flex-direction: column;
+    font-weight: 400;
+}
+.container .contactinfo .box .text h3{
+    font-weight: 600;
+
+}
+
+
+
+.contact-form .input-box1 input:focus ~ placeholder ,
+.contact-form .input-box1 input:valid ~ placeholder,
+.contact-form .input-box1 textarea:focus ~ placeholder,
+.contact-form .input-box1 textarea:valid ~ placeholder
+{
+    color: darkgreen;
+    font-size: 12px;
+    transform: translate(-20px);
+}
+
+.wrapper{
+    width: 440px;
+    background-color:rgb(156, 205, 124);
+    color: black;
+    border-radius: 30px black;
+    height: 480px;
+}
+.wrapper h1{
+    font-size: 60px;
+    text-align: center;
+    font-weight: 400;
+
+}
+.wrapper .input-box1{
+    position: relative;
+    width: 100%;
+    height: 45px;
+    margin: 30px 0;
+    
+
+}
+.input-box1 input{
+    width: 100%;
+    height: 117%;
+    background: transparent;
+    border: 2px solid black;
+    border-radius: 40px;
+    font-size: 16px;
+    color: black;
+    padding: 20px 45px 20px 20px;
+
+}
+.input-box1 textarea{
+    width: 100%;
+    height: 117%;
+    background: transparent;
+    border: 2px solid black;
+    border-radius: 40px;
+    font-size: 16px;
+    color: black;
+    padding: 20px 45px 20px 20px;
+
+}
+.input-box1 input::placeholder{
+    color: black;
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    
+
+}
+.input-box1 i{
+    position: absolute;
+    right:20px;
+    margin-top: 15px;
+    transform: translate(-50%);
+    font-size: 20px;
+
+}
+.wrapper .btn1{
+
+    width: 40%;
+    height: 117%;
+    background-color: black;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    color: beige;
+    font-weight: 600;
+    margin-bottom: 8%;
+    padding: 20px 20px 20px 20px;
+    font-size: 16px;
+
+    
+
+}
+.wrapper a{
+   font-size: 16pxpx;
+   text-align:right;
+   color:beige;
+   text-decoration:none;
+   margin-top: 10px;
+} 
+.wrapper .btn2{
+
+    width: 40%;
+    height: 117%;
+    background-color: black;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    cursor: pointer;
+    color: beige;
+    font-weight: 600;
+    margin-bottom: 8%;
+    padding: 20px 20px 20px 20px;
+    font-size: 16px;
+    justify-content: space-between;
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+    align-items: left;
+    
+    
+
+}
